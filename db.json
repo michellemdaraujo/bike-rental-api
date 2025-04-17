@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "manager@toptal.com",
+      "password": "123456",
+      "name": "Update my name aaaaa",
+      "role": "manager"
+    },
+    {
+      "id": "2",
+      "email": "user@toptal.com",
+      "password": "123456",
+      "name": "Regular User",
+      "role": "user"
+    },
+    {
+      "id": "931d",
+      "name": "12312313asdasdasd",
+      "email": "adsad@asdadasasd.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": "1101",
+      "name": "New account user aa",
+      "email": "newuser@user.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "747d",
+      "name": "Michelle",
+      "email": "asdasda@co.co",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "bikes": [
+    {
+      "id": "d877",
+      "model": "krw",
+      "color": "red",
+      "location": "Brazil",
+      "isAvailable": true
+    },
+    {
+      "id": "5717",
+      "model": "tsw",
+      "color": "blue",
+      "location": "Brazil",
+      "isAvailable": true
+    },
+    {
+      "id": "2e9a",
+      "model": "tk3",
+      "color": "pink",
+      "location": "united states",
+      "isAvailable": false
+    },
+    {
+      "id": "6490",
+      "model": "tk3",
+      "color": "green",
+      "location": "Argentina",
+      "isAvailable": true
+    },
+    {
+      "id": "7f84",
+      "model": "tsw",
+      "color": "green",
+      "location": "Argentina",
+      "isAvailable": true
+    },
+    {
+      "id": "fe78",
+      "model": "flyer",
+      "color": "black",
+      "location": "Colombia",
+      "isAvailable": true
+    },
+    {
+      "id": "631e",
+      "model": "flyer",
+      "color": "red",
+      "location": "Brazil",
+      "isAvailable": false
+    },
+    {
+      "id": "72c3",
+      "model": "forth-park",
+      "color": "orange",
+      "location": "Colombia",
+      "isAvailable": true
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "bikeId": "d877",
+      "userId": "2",
+      "startDate": "2024-06-01",
+      "endDate": "2024-06-03"
+    },
+    {
+      "id": "8216",
+      "bikeId": "5717",
+      "userId": "2",
+      "startDate": "2025-03-25",
+      "endDate": "2025-03-28"
+    },
+    {
+      "id": "a7aa",
+      "bikeId": "5717",
+      "userId": "2",
+      "startDate": "2025-04-18",
+      "endDate": "2025-04-25"
+    },
+    {
+      "id": "a68c",
+      "bikeId": "5717",
+      "userId": "1101",
+      "startDate": "2024-07-02",
+      "endDate": "2024-07-30"
+    },
+    {
+      "id": "08ef",
+      "bikeId": "5717",
+      "userId": "1101",
+      "startDate": "2025-08-14",
+      "endDate": "2025-09-04"
+    },
+    {
+      "id": "82cf",
+      "bikeId": "5717",
+      "userId": "747d",
+      "startDate": "2025-05-20",
+      "endDate": "2025-05-24"
+    },
+    {
+      "id": "05bb",
+      "bikeId": "72c3",
+      "userId": "747d",
+      "startDate": "2025-05-07",
+      "endDate": "2025-05-29"
+    },
+    {
+      "id": "8481",
+      "bikeId": "fe78",
+      "userId": "747d",
+      "startDate": "2025-05-07",
+      "endDate": "2025-05-30"
+    },
+    {
+      "id": "1782",
+      "bikeId": "fe78",
+      "userId": "747d",
+      "startDate": "2025-03-17",
+      "endDate": "2025-03-18"
+    },
+    {
+      "id": "c06c",
+      "bikeId": "d877",
+      "userId": "747d",
+      "startDate": "2025-04-30",
+      "endDate": "2025-05-01"
+    },
+    {
+      "id": "3b45",
+      "bikeId": "d877",
+      "userId": "747d",
+      "startDate": "2025-03-22",
+      "endDate": "2025-03-29"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "6148",
+      "bikeId": "5717",
+      "userId": "2",
+      "score": 5
+    },
+    {
+      "id": "01da",
+      "bikeId": "5717",
+      "userId": "1101",
+      "score": 1
+    },
+    {
+      "id": "f528",
+      "bikeId": "5717",
+      "userId": "2",
+      "score": 3
+    },
+    {
+      "id": "1de0",
+      "bikeId": "d877",
+      "userId": "2",
+      "score": 1
+    },
+    {
+      "id": "44d5",
+      "bikeId": "fe78",
+      "userId": "747d",
+      "score": 5
+    },
+    {
+      "id": "157f",
+      "bikeId": "d877",
+      "userId": "747d",
+      "score": 3
+    }
+  ]
+}
